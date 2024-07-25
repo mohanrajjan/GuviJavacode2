@@ -83,6 +83,9 @@ public class Palin {
 			System.out.println("Fail");
 		}
 	}
+	public void month() {
+		
+	}
 	public void large() {
 		int a=10,b=40,c=45;
 		if(a>b && a>c)
