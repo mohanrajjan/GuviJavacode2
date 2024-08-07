@@ -7,13 +7,13 @@ import java.util.TreeMap;
 public class Task7Employee {
 
 	public static void main(String[] args) {
-		TreeMap<Integer, String> tr = new TreeMap<Integer, String>();
-		tr.put(101, "Mani");
-		tr.put(107, "Ezhil");
-		tr.put(105, "Paneer");
-		Set<Entry<Integer, String>> s = tr.entrySet();
-		for (Entry<Integer, String> entry : s) {
-			System.out.println(entry.getValue());
+		TreeMap<String, Integer> tr = new TreeMap<String, Integer>();
+		tr.put("Mani", 101);
+		tr.put("Ezhil", 107 );
+		tr.put("Paneer",109 );
+		Set<Entry<String, Integer>> s = tr.entrySet();
+		for (Entry<String, Integer> entry : s) {
+			System.out.println(entry.getKey());
 			
 		}
 
